@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-pip install --upgrade pip
 
 #import libraries
 import pandas as pd
