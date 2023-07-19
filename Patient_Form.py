@@ -29,9 +29,9 @@ img = Image.open('images/background.jpg')
 img2 = Image.open('images/med_bot.png')
 
 SCOPE = "https://www.googleapis.com/auth/spreadsheets"
-SPREADSHEET_ID = "1OBEMIUloci4WV80D-yLhhoLMVQymy-TYlh7jwGXmND8"
+SPREADSHEET_ID = "1VVIRtGEiwzBLLAb0T44mdzWg23zIEz3rTRPwy69d-DU/edit#gid=0"
 SHEET_NAME = "Database"
-GSHEET_URL = f"https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}"
+GSHEET_URL = f"https://docs.google.com/spreadsheets/d/1VVIRtGEiwzBLLAb0T44mdzWg23zIEz3rTRPwy69d-DU/edit#gid=0"
 
 # impostazione grafica iniziale
 st.set_page_config(page_title="MeHEDI", page_icon="🏥", layout="wide")
@@ -190,7 +190,7 @@ if senza_auth==True:
         st.sidebar.title("Support")
         st.sidebar.info(
             """
-            Per eventuali problemi nell'utilizzo app rivolgersi a: matteoballabio99@gmail.com
+            Per eventuali problemi nell'utilizzo app rivolgersi a: parashuramulu.aws@gmail.com
             """
         )
         a, b, c = st.sidebar.columns([0.2,1,0.2])
@@ -201,7 +201,7 @@ if senza_auth==True:
             st.markdown("""
             <div align=center><small>
             Page views interaction: <img src="https://www.cutercounter.com/hits.php?id=hxndpfn&nd=6&style=52" border="0" alt="hit counter"><br>
-            GitHub <a href="https://github.com/M-ballabio1/MeHEDI-app"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/M-ballabio1/MeHEDI-app?style=social"></a>
+            GitHub <a href="https://github.com/testingpage/MeHEDI-app"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/testingpage/MeHEDI-app?style=social"></a>
             </small></div>
             """, unsafe_allow_html=True)
         with c:
