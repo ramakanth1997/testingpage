@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+pip install --upgrade package_name
+pip freeze | cut -d = -f 1 | xargs -n 1 pip install -U
+pip install --upgrade pip
 
 #import libraries
 import pandas as pd
