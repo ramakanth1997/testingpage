@@ -30,11 +30,11 @@ img2 = Image.open('images/med_bot.png')
 
 SCOPE = "https://www.googleapis.com/auth/spreadsheets"
 SPREADSHEET_ID = "1VVIRtGEiwzBLLAb0T44mdzWg23zIEz3rTRPwy69d-DU/edit#gid=0"
-SHEET_NAME = "Database"
+SHEET_NAME = "Sheet1"
 GSHEET_URL = f"https://docs.google.com/spreadsheets/d/1VVIRtGEiwzBLLAb0T44mdzWg23zIEz3rTRPwy69d-DU/edit#gid=0"
 
 # impostazione grafica iniziale
-st.set_page_config(page_title="MeHEDI", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="Wissen", page_icon="🏥", layout="wide")
 
 @st.cache_resource()
 def connect_to_gsheet():
